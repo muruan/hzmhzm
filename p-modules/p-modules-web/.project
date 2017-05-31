@@ -3,6 +3,9 @@
 	<name>p-modules-web</name>
 	<comment></comment>
 	<projects>
+		<project>p-common</project>
+		<project>p-service</project>
+		<project>p-intf</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

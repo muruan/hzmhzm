@@ -19,6 +19,8 @@
 
     <!-- 扫描controller（controller层注入） -->
     <context:component-scan base-package="cn.hzm.hz.web"/>
+   
+
 
     <!-- 启动注解支持 -->  
     <mvc:annotation-driven />

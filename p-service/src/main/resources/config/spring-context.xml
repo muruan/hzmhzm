@@ -17,6 +17,8 @@
     <!-- 引入属性文件 -->
 	<context:property-placeholder location="classpath:config/jdbc.properties" ignore-unresolvable="true" />
 	
+
+	
 	<!-- 配置扫描路径 -->
 	<context:component-scan base-package="cn.hzm.hz">
 		<context:include-filter type="regex"

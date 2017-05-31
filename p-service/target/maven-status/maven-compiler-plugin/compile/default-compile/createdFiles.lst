@@ -1,6 +1,6 @@
-cn\hzm\hz\dao\testDao.class
-cn\hzm\hz\daoImpl\testDaoImpl.class
-cn\hzm\hz\service\App.class
-cn\hzm\hz\service\testService.class
+cn\hzm\hz\service\impl\testServiceImpl.class
 cn\hzm\hz\mapper\testMapper.class
-cn\hzm\hz\servce\impl\testServiceImpl.class
+cn\hzm\hz\service\testService.class
+cn\hzm\hz\dao\impl\testDaoImpl.class
+cn\hzm\hz\dao\testDao.class
+cn\hzm\hz\service\App.class
