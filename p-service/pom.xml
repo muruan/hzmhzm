@@ -40,6 +40,7 @@
   <artifactId>spring-test</artifactId>
   <version>4.0.6.RELEASE</version>
 </dependency>
+
   </dependencies>
   
     <build>
@@ -53,6 +54,7 @@
           <target>1.7</target>
         </configuration>
       </plugin>
+      
     </plugins>
   </build>
   
