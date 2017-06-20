@@ -18,7 +18,7 @@
            http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
     <!-- 扫描controller（controller层注入） -->
-    <context:component-scan base-package="cn.hzm.hz.controller"/>
+    <context:component-scan base-package="cn.hzm.hz.task.controller"/>
    
 
 
