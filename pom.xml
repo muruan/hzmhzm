@@ -134,10 +134,10 @@
 
     <!-- json数据 -->
     <dependency>
-        <groupId>org.codehaus.jackson</groupId>
-        <artifactId>jackson-mapper-asl</artifactId>
-        <version>1.9.13</version>
-    </dependency>
+	  <groupId>com.alibaba</groupId>
+	  <artifactId>fastjson</artifactId>
+	  <version>1.2.9</version>
+	</dependency>
 
     <!-- log4j日志包 -->
     <dependency>
@@ -186,13 +186,21 @@
             <artifactId>shiro-spring</artifactId>
             <version>1.2.3</version>
         </dependency>
-        
-        <dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>javax.servlet-api</artifactId>
-    <version>3.0.1</version>
-    <scope>provided</scope>
-</dependency>
+	        
+	   <!-- servlet相关JAR包 -->     
+	    <dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>3.0.1</version>
+	    <scope>provided</scope>
+	    </dependency>
+	    
+	    <!-- common 一些常用方法如 toString -->
+	    <dependency>
+		  <groupId>org.apache.commons</groupId>
+		  <artifactId>commons-lang3</artifactId>
+		  <version>3.4</version>
+		</dependency>
   </dependencies>
 
 <!-- 

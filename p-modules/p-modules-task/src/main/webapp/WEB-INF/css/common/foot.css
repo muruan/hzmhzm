@@ -1,0 +1,13 @@
+  .footer-sec {
+      background-color:#111;
+       margin-top:50px;
+       height: 50px;     
+  }
+  .foo-inner {
+      text-align:right;
+      padding:15px 30px;
+      color:#fff; 
+  }
+  .col-md-12{
+      height:50px;
+  }

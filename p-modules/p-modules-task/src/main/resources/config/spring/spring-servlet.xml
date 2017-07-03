@@ -22,8 +22,18 @@
    
 
 
-    <!-- 启动注解支持 -->  
-    <mvc:annotation-driven />
+    <!-- 启动注解支持   并且设置发送字符串的编码格式为utf-8-->  
+    <mvc:annotation-driven>
+    <mvc:message-converters>
+        <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+            <constructor-arg ref="utf8Charset" />
+        </bean>
+    </mvc:message-converters>
+</mvc:annotation-driven>
+<bean id="utf8Charset" class="java.nio.charset.Charset" factory-method="forName">
+    <constructor-arg value="UTF-8" />
+</bean>
+    
     <mvc:default-servlet-handler/>
     <!-- 静态资源 -->
     <mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
